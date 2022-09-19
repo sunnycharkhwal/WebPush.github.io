@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/70652ddcd3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css -->
+    <link rel="stylesheet" href="sass/style.css" />
+    <link rel="stylesheet" href="sass/res.css" />
+  </head>
+  <body>
+    <section
+      class="login_img login_img_3"
+      style="background-image: url('img/bg.png')"
+    >
+      <div>
+        <div class="home_login shadow">
+          <a href="#"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="login_top_div login_top_div_2 shadow">
+          <div class="text-center">
+            <h3 class="login_title">Log in</h3>
+          </div>
+          <form action="">
+            <div>
+              <label class="form_label">User Name Or Email</label>
+              <div class="login_input_div">
+                <span><i class="fas fa-user"></i></span>
+                <input class="form-control" type="text" placeholder="" />
+              </div>
+            </div>
+            <div>
+              <label class="form_label">Password</label>
+              <div class="login_input_div">
+                <span><i class="fas fa-lock"></i></span>
+                <input
+                  class="form-control"
+                  type="password"
+                  placeholder=""
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <div class="row">
+                  <div class="col-6">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label
+                      class="form-check-label login_rem"
+                      for="exampleCheck1"
+                      >Remember me</label
+                    >
+                  </div>
+                  <div class="col-6">
+                    <div class="login_rem_2">
+                      <a href="forgot.html">Forgot password ?</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <!-- <a href="" class="btn login_btn">Login in</a> -->
+              <input class="btn login_btn" type="submit" value="Login in" />
+            </div>
+          </form>
+          <div class="text-center login_text">
+            <p class="mb-0">Or Login With</p>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-6">
+                <div class="login_socle">
+                  <a href="#">
+                    <span><i class="fab fa-facebook"></i> facebook</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="login_socle">
+                  <a href="#">
+                    <span
+                      ><i
+                        class="fab fa-google"
+                        style="color: #e94234"
+                      ></i> </span
+                    >Google
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="login_new">
+            <p>
+              Don't have an account ?
+              <a href="signup.html"> Sign Up</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

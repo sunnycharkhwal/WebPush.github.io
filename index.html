@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/70652ddcd3.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- my -->
+  <link rel="stylesheet" href="src/sass/style.css" />
+  <link rel="stylesheet" href="src/sass/res.css" />
+</head>
+
+<body>
+  <!-- nav -->
+  <section>
+    <b class="screen-overlay"></b>
+
+    <div class="d-lg-none bg_color">
+      <div class="row m-0">
+        <div class="col-6">
+          <div>
+            <a class="navbar-brand" href="index.html">
+              <img class="logo_1" src="src/img/logo.png" alt="logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 d-flex align-items-center justify-content-end">
+          <div class="float-right mr-3">
+            <span>
+              <i class="fas fa-bars text-white mobile_nav_menu" data-trigger="#navbar_main"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="mobile_nav_br"></div>
+    </div>
+    <nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg navbar-dark bg_color">
+      <div class="d-none d-xl-block d-lg-block">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo_1" src="src/img/logo.png" alt="logo" />
+        </a>
+      </div>
+      <div class="offcanvas-header">
+        <button class="btn btn-danger btn-close float-right">
+          &times Close
+        </button>
+        <h5 class="py-2 text-white">
+          <img class="logo_1" src="src/img/logo.png" alt="logo" />
+        </h5>
+      </div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"></li>
+        <a class="nav-link nav_link underline" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_link underline" href="features.html">features
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_link underline" href="about.html"> About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_link underline" href="pricing.html">
+            pricing
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_link underline" href="contact.html">
+            Contact Us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline nav_btn_2" href="login2/login.html">
+            Log In
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_btn_1" href="login2//signup.html">
+            Get a Demo
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <!-- nav end -->
+  <!-- hero -->
+  <section class="hero_bg_img_div">
+    <div class="hero_bg_img" style="background-image: url('src/img/hero_bg.jpeg')"></div>
+    <div class="hero_bg_img_overlay text-white"></div>
+    <div class="hero_bg_img_overlay_img_div">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="d-none d-xl-block d-lg-block d-md-block">
+              <div class="hero_bg_img_overlay_img" style="background-image: url('src/img/hero2.png')"></div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="overlay_h1_div">
+              <h1>
+                never let your
+                <div class="div_br"></div>
+                visitors replace you
+              </h1>
+            </div>
+            <div class="overlay_p_div">
+              <p>
+                send unlimited notification <br />
+                all around the world
+              </p>
+            </div>
+            <div class="overlay_form_div">
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Please enter your work email" />
+                </div>
+                <div>
+                  <a href="#" class="btn overlay_btn">Start your free trial</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero end -->
+
+  <!-- banner logo -->
+  <section class="banner_logo_bg">
+    <div class="container">
+      <div class="banner_logo_div">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="banner_logo_img_div mb">
+              <img src="src/img/b_logo.svg" alt="banner_logo" />
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="banner_logo_img_div mb">
+              <img src="src/img/b_logo2.svg" alt="banner_logo" />
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="banner_logo_img_div">
+              <img src="src/img/b_logo3.svg" alt="banner_logo" />
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="banner_logo_img_div">
+              <img src="src/img/b_logo4.svg" alt="banner_logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner logo end -->
+  <!-- How We Work index -->
+  <section class="">
+    <div>
+      <div class="row m-0">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="How_We_Work_index_top">
+            <div class="How_We_Work_index_top_title">
+              <h3>How We Work</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Atque consequuntur delectus reiciendis accusantium minus amet,
+                illum praesentium quisquam eligendi quibusdam illo aliquam
+                officia veniam cum similique, beatae sint corporis provident!
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="text-center How_We_Work_index_main_div">
+                  <div class="How_We_Work_index_icon" style="background-image: url('src/img/s.png')"></div>
+                  <div class="How_We_Work_index_icon_text">
+                    <h5>Sign Up Through</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Nihil harum quas quidem consequatur accusamus
+                      reiciendis, tenetur voluptatem hic. Possimus, vitae!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="text-center How_We_Work_index_main_div">
+                  <div class="How_We_Work_index_icon" style="background-image: url('src/img/p.png')"></div>
+                  <div class="How_We_Work_index_icon_text">
+                    <h5>Create Project</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Nihil harum quas quidem consequatur accusamus
+                      reiciendis, tenetur voluptatem hic. Possimus, vitae!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="text-center How_We_Work_index_main_div">
+                  <div class="How_We_Work_index_icon" style="background-image: url('src/img/1.png')"></div>
+                  <div class="How_We_Work_index_icon_text">
+                    <h5>Integration Code</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Nihil harum quas quidem consequatur accusamus
+                      reiciendis, tenetur voluptatem hic. Possimus, vitae!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="text-center How_We_Work_index_main_div">
+                  <div class="How_We_Work_index_icon" style="background-image: url('src/img/n.png')"></div>
+                  <div class="How_We_Work_index_icon_text">
+                    <h5>Push Notification</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Nihil harum quas quidem consequatur accusamus
+                      reiciendis, tenetur voluptatem hic. Possimus, vitae!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="How_We_Work_index_btn_div">
+              <a href="" class="btn How_We_Work_index_btn">
+                <span class="d-flex align-items-center">
+                  Start free trial
+                  <img src="src/img/right-arrow.png" alt="arrow" />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 p-0">
+          <div class="d-none d-xl-block d-lg-block">
+            <div class="How_We_Work_index_img shadow-sm" style="background-image: url('src/img/how.png')"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- How We Work index end -->
+  <!-- Key Features -->
+  <section class="container section_top">
+    <div class="top_title">
+      <div>
+        <h3>Key Features</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
+          laborum rem! <br />
+          Excepturi inventore dolor neque.
+        </p>
+        <div></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="key_card" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="row">
+            <div class="col-8">
+              <div>
+                <h5 class="fw-bolder text-capitalize">
+                  Data Privacy & Ownership
+                </h5>
+                <p>
+                  Your trust is the most important thing to us. It is also the
+                  guiding principle in how we design our platform and store
+                  information. Learn more.
+                </p>
+              </div>
+            </div>
+            <div class="col-4 d-flex">
+              <div class="key_features_icon_imf" style="background-image: url(src/img/f1.png)"></div>
+            </div>
+          </div>
+        </div>
+        <div class="key_card" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="row">
+            <div class="col-8">
+              <div>
+                <h5 class="fw-bolder text-capitalize">
+                  Effortless Migration
+                </h5>
+                <p>
+                  Your subscribers from your current push provider will
+                  automatically transfer to Webpushr once integration is
+                  complete. No manual work is needed.
+                </p>
+              </div>
+            </div>
+            <div class="col-4 d-flex">
+              <div class="key_features_icon_imf" style="background-image: url(src/img/f2.png)"></div>
+            </div>
+          </div>
+        </div>
+        <div class="key_card mb-0" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="row">
+            <div class="col-8">
+              <div>
+                <h5 class="fw-bolder text-capitalize">
+                  Powerful User Segmentation
+                </h5>
+                <p>
+                  Your trust is the most important thing to us. It is also the
+                  guiding principle in how we design our platform and store
+                  information. Learn more.
+                </p>
+              </div>
+            </div>
+            <div class="col-4 d-flex">
+              <div class="key_features_icon_imf" style="background-image: url(src/img/f3.png)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="
+            col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12
+            d-none d-xxl-block d-xl-block d-lg-block
+          ">
+        <div data-aos="zoom-out" data-aos-duration="2000">
+          <div class="key_features_mobile_img" style="background-image: url('src/img/mobile2.png')" data-tilt></div>
+        </div>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="key_card" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="row">
+            <div class="col-4 d-flex order-md-1 order-2">
+              <div class="key_features_icon_imf" style="background-image: url(src/img/f4.png)"></div>
+            </div>
+            <div class="col-8 order-md-2 order-1">
+              <div>
+                <h5 class="fw-bolder text-capitalize">Scalability</h5>
+                <p>
+                  Your trust is the most important thing to us. It is also the
+                  guiding principle in how we design our platform and store
+                  information. Learn more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="key_card" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="row">
+            <div class="col-4 d-flex order-md-1 order-2">
+              <div class="key_features_icon_imf" style="background-image: url(src/img/f5.png)"></div>
+            </div>
+            <div class="col-8 order-md-2 order-1">
+              <div>
+                <h5 class="fw-bolder text-capitalize">AMP Support</h5>
+                <p>
+                  Your subscribers from your current push provider will
+                  automatically transfer to Webpushr once integration is
+                  complete. No manual work is needed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="key_card mb-0" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="row">
+            <div class="col-4 d-flex order-md-1 order-2">
+              <div class="key_features_icon_imf" style="background-image: url(src/img/f6.png)"></div>
+            </div>
+            <div class="col-8 order-md-2 order-1">
+              <div>
+                <h5 class="fw-bolder text-capitalize">Automatic Web Push</h5>
+                <p>
+                  Your trust is the most important thing to us. It is also the
+                  guiding principle in how we design our platform and store
+                  information. Learn more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Key Features -->
+  <!-- Get our Weekly -->
+  <section class="section_top">
+    <div class="get_our_img" style="background-image: url('src/img/get.jpg')">
+      <div class="container">
+        <div class="get_our_img">
+          <div class="text-white text-center get_our_img_text" data-aos="zoom-in" data-aos-duration="2000">
+            <div>
+              <h5 class="fw-normal">READY TO GROW</h5>
+            </div>
+            <h4>Get Your Free Quote Today</h4>
+            <div class="get_our_img_input mt-4">
+              <input type="email" class="form-control" placeholder="Email Address" />
+              <button class="btn">subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Get our Weekly -->
+  <!-- Customers Reviews -->
+  <section class="section_top container">
+    <div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="d-none d-xl-block d-lg-block">
+            <div class="reviews_img" style="background-image: url('src/img/reviews.png')"></div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+          <div>
+            <div class="reviews_cont_text">
+              <h1>More than <span>12000+</span> Customers Reviews</h1>
+              <p>
+                Objectively actualize process-centric infomediaries via
+                ethical niche markets. Professionally plagiarize leading-edge
+                potentialities.
+              </p>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="customers_div">
+                  <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div>
+                        <div class="customers_img" style="
+                              background-image: url('src/img/profile.jpeg');
+                            "></div>
+                      </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9 col-9">
+                      <div class="customers_div_text">
+                        <p>
+                          Progressively scale front-end models whereas
+                          standardized technology. Collaboratively
+                          disintermediate user friendly communities vis-a-vis
+                          cross-platform results. Completely productize
+                          client-centric benefits vis-a-vis optimal.
+                        </p>
+                      </div>
+                      <div class="customers_name_div">
+                        <h3><span>-</span> John Doe</h3>
+                        <p>XYZ Inc.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="customers_div">
+                  <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div>
+                        <div class="customers_img" style="
+                              background-image: url('src/img/profile.jpeg');
+                            "></div>
+                      </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9 col-9">
+                      <div class="customers_div_text">
+                        <p>
+                          Progressively scale front-end models whereas
+                          standardized technology. Collaboratively
+                          disintermediate user friendly communities vis-a-vis
+                          cross-platform results. Completely productize
+                          client-centric benefits vis-a-vis optimal.
+                        </p>
+                      </div>
+                      <div class="customers_name_div">
+                        <h3><span>-</span> John Doe</h3>
+                        <p>XYZ Inc.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="customers_div">
+                  <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div>
+                        <div class="customers_img" style="
+                              background-image: url('src/img/profile.jpeg');
+                            "></div>
+                      </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9 col-9">
+                      <div class="customers_div_text">
+                        <p>
+                          Progressively scale front-end models whereas
+                          standardized technology. Collaboratively
+                          disintermediate user friendly communities vis-a-vis
+                          cross-platform results. Completely productize
+                          client-centric benefits vis-a-vis optimal.
+                        </p>
+                      </div>
+                      <div class="customers_name_div">
+                        <h3><span>-</span> John Doe</h3>
+                        <p>XYZ Inc.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="customers_div">
+                  <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div>
+                        <div class="customers_img" style="
+                              background-image: url('src/img/profile.jpeg');
+                            "></div>
+                      </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9 col-9">
+                      <div class="customers_div_text">
+                        <p>
+                          Progressively scale front-end models whereas
+                          standardized technology. Collaboratively
+                          disintermediate user friendly communities vis-a-vis
+                          cross-platform results. Completely productize
+                          client-centric benefits vis-a-vis optimal.
+                        </p>
+                      </div>
+                      <div class="customers_name_div">
+                        <h3><span>-</span> John Doe</h3>
+                        <p>XYZ Inc.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3">
+              <div class="row">
+                <div class="col-6">
+                  <div class="text-center reviews_img_text">
+                    <h1>1100+</h1>
+                    <p>
+                      Jobs Done, consectetur adipisicing elit. Eveniet, sunt.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="text-center reviews_img_text">
+                    <h1>1100+</h1>
+                    <p>
+                      Jobs Done, consectetur adipisicing elit. Eveniet, sunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Customers Reviews end -->
+  <!-- browser and platform -->
+  <section class="section_top browser_icon_bg" style="background-image: url('src/img/icon_bg2.svg')">
+    <div class="container">
+      <div class="top_title">
+        <div>
+          <h3>browser and platform</h3>
+          <p class="browser_icon_text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Pariatur, laborum rem! <br />
+            Excepturi inventore dolor neque.
+          </p>
+          <div></div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="
+                  text-center
+                  browser_icon_text_title_div browser_icon_text_title_div2
+                ">
+              <div class="how_to_img_2" style="background-image: url('src/img/chrome.svg')"></div>
+              <img src="src/img/platform_1.png" alt="" />
+            </div>
+            <div class="how_to_h3_div">
+              <h3 class="
+                    browser_icon_text_title
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Chrome
+              </h3>
+              <p class="
+                    browser_icon_text
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam fuga nesciunt amet consequatur, est eveniet?
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="
+                  text-center
+                  browser_icon_text_title_div browser_icon_text_title_div2
+                ">
+              <div class="how_to_img_2" style="background-image: url('src/img/firefox.svg')"></div>
+              <img src="src/img/platform_1.png" alt="" />
+            </div>
+            <div class="how_to_h3_div">
+              <h3 class="
+                    browser_icon_text_title
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Firefox
+              </h3>
+              <p class="
+                    browser_icon_text
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam fuga nesciunt amet consequatur, est eveniet?
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="text-center browser_icon_text_title_div">
+              <div class="how_to_img_2" style="background-image: url('src/img/safari.svg')"></div>
+              <img src="src/img/platform_2.png" alt="" />
+            </div>
+            <div class="how_to_h3_div">
+              <h3 class="
+                    browser_icon_text_title
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Safari
+              </h3>
+              <p class="
+                    browser_icon_text
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam fuga nesciunt amet consequatur, est eveniet?
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="text-center browser_icon_text_title_div">
+              <div class="how_to_img_2" style="background-image: url('src/img/edge1.png')"></div>
+              <img src="src/img/platform_3.png" alt="" />
+            </div>
+            <div class="how_to_h3_div">
+              <h3 class="
+                    browser_icon_text_title
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Edge
+              </h3>
+              <p class="
+                    browser_icon_text
+                    d-none d-xl-block d-lg-block d-md-block
+                  ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam fuga nesciunt amet consequatur, est eveniet?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- browser and platform -->
+  <!-- faq -->
+  <section class="container section_top">
+    <div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="faq_title">
+            <p>FAQ</p>
+            <h3>Keep Your Data Protected. Our Platform is certified</h3>
+          </div>
+          <div>
+            <div id="main">
+              <div class="container">
+                <div class="accordion" id="faq">
+                  <div class="card faq_card">
+                    <div class="card-header faq_header" id="faqhead1">
+                      <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
+                        aria-expanded="true" aria-controls="faq1">
+                        How can i install this theme?
+                      </a>
+                    </div>
+
+                    <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                      <div class="card-body faq_body">
+                        Our optimized configuration process saves your team
+                        time when running and scaling distributed
+                        applications, AI & machine learning workloads, hosted
+                        services
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card faq_card">
+                    <div class="card-header faq_header" id="faqhead2">
+                      <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
+                        aria-expanded="true" aria-controls="faq2">
+                        How can i install this theme?
+                      </a>
+                    </div>
+
+                    <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
+                      <div class="card-body faq_body">
+                        Our optimized configuration process saves your team
+                        time when running and scaling distributed
+                        applications, AI & machine learning workloads, hosted
+                        services
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card faq_card">
+                    <div class="card-header faq_header" id="faqhead3">
+                      <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
+                        aria-expanded="true" aria-controls="faq3">
+                        How can i install this theme?
+                      </a>
+                    </div>
+
+                    <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
+                      <div class="card-body faq_body">
+                        Our optimized configuration process saves your team
+                        time when running and scaling distributed
+                        applications, AI & machine learning workloads, hosted
+                        services
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="d-none d-xl-block d-lg-block">
+            <div class="faq_img" style="background-image: url('src/img/faq.png')"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- faq end -->
+  <!-- contact us -->
+  <section class="section_top contact_bg">
+    <div class="container">
+      <div class="contact_div_top" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="contact_div">
+          <p class="mb-0 text-capitalize">
+            <span><i class="far fa-comment-dots"></i></span>
+            Looking To Get Getting Started Or Have A Question
+          </p>
+          <div>
+            <a class="btn text-capitalize" href="contact.html">contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact us end -->
+  <!-- Footer -->
+  <footer class="page-footer font-small bg_color footer_div">
+    <div class="container text-md-left">
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 logo_footer">
+            <img class="logo_1" src="src/img/logo.png" alt="logo" />
+          </h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a class="footer_socle" href="#!"><span><i class="fab fa-facebook-square"></i></span>
+                facebook</a>
+            </li>
+            <li>
+              <a class="footer_socle" href="#!"><span><i class="fab fa-twitter-square"></i></span> twitter</a>
+            </li>
+            <li>
+              <a class="footer_socle" href="#!"><span><i class="fab fa-instagram-square"></i></span>
+                instagram</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none" />
+        <div class="col-md-4 mx-auto">
+          <!-- Links -->
+          <h5 class="text-white text-capitalize mt-3 mb-4">useful links</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-1">
+              <a class="footer_link" href="index.html">home</a>
+            </li>
+            <li class="mb-1">
+              <a class="footer_link" href="about.html">about</a>
+            </li>
+            <li class="mb-1">
+              <a class="footer_link" href="contact.html">contact us</a>
+            </li>
+            <li class="mb-1">
+              <a class="footer_link" href="terms.html">Terms of Services</a>
+            </li>
+            <li class="mb-1">
+              <a class="footer_link" href="privacy.html">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none" />
+        <div class="col-md-4 mx-auto">
+          <h5 class="text-white text-capitalize mt-3 mb-4">address</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-1">
+              <div class="d-flex footer_address">
+                <span><i class="fas fa-address-card"></i></span>
+                <p>
+                  828, Udyog Vihar Phase V, Sector 19, Gurugram, Haryana
+                  122008
+                </p>
+              </div>
+            </li>
+            <li class="mb-1">
+              <div class="d-flex footer_address">
+                <span><i class="fas fa-blender-phone"></i></span>
+                <a class="footer_address_a" href="tel:5551234567">+110-5551234567</a>
+              </div>
+            </li>
+            <li class="mb-1">
+              <div class="d-flex footer_address">
+                <span><i class="fas fa-envelope"></i></span>
+                <a href="mailto:webmaster@example.com">webmaster@example.com</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="clearfix w-100 bg-white" />
+      <div>
+        <div>
+          <p class="text-white mb-0 footer_compney_div">
+            © 2021 Copyright:
+            <a class="footer_compney" href="#">Massman CyberGeeks</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+  <!-- script -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      disable: false,
+    });
+  </script>
+  <script src="src/js/my.js"></script>
+  <script src="tilt.js"></script>
+</body>
+
+</html>
